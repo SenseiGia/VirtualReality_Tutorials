@@ -23,12 +23,17 @@ Start off by Getting the latest version of [Android Studio (v3.3.1)](https://dev
 
 Follow the install instructions provided by [Android Studio Install Guide](https://developer.android.com/studio/install) and feel free to customize the settings to your preference as they may be adjusted in settings later. Once Android Studio has been installed, open Android Studio and finish the remaining configurations. You should see the window below appear.
 
+![alt text](https://github.com/SenseiGia/VirtualReality_Tutorials/blob/master/Tutorial_Images/OpeningAndroidStudio.JPG)
+
 ### Android SDK
 From the screen above, click the Configure button to bring out the list of options where you can then select SDK Manger. Before downloading any of the available Android SDKs, find the SDK used by your phone 
 
 **On Phone: -> Settings -> About phone -> Android Version: #.#.#**
+![alt text](https://github.com/SenseiGia/VirtualReality_Tutorials/blob/master/Tutorial_Images/AndroidVerison.jpg)
 
-If the version is newer than Android SDK 7.1.1 'KitKat', the device is supported and you can proceed with downloading the SDK for Android Studio. Select the SDK by clicking on the checkbox and progress by clicking 'Apply' or 'OK', which will download the SDK to your system. 
+If the version is newer than Android SDK 7.1.1 'KitKat', the device is supported and you can proceed with downloading the SDK for Android Studio. Select the SDK by clicking on the checkbox and progress by clicking 'Apply' or 'OK', which will download the SDK to your system.
+
+![alt text)(https://github.com/SenseiGia/VirtualReality_Tutorials/blob/master/Tutorial_Images/DownloadingSDK.JPG)
 
 ### Google VR SDK
 Once Android Studio has been prepared with the proper SDK, the last bit of software needed is the the Google VR SDK, which can be downloaded from the GitHub releases page found here: https://github.com/googlevr/gvr-android-sdk/releases. Download the zip file and extract the folder in a convinient location.
