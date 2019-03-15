@@ -46,10 +46,13 @@ For the final part of the Processing configuration step, we will now want to upd
 Processing has now been completely configured and we can now start configuring you Android device for communication with you computer. 
 
 ## Configure you Android device for use with Processing.
-
 **On Phone: -> Settings -> About phone -> Android Version: #.#.#**
+![alt text](https://github.com/SenseiGia/VirtualReality_Tutorials/blob/master/Tutorial_Images/AndroidVerison.jpg)
+
+If the version is newer than Android SDK 7.1.1 'KitKat', the device is supported and you can proceed with downloading the SDK for Android Studio. Select the SDK by clicking on the checkbox and progress by clicking 'Apply' or 'OK', which will download the SDK to your system.
 
 If the version is equal or newer than Android SDK 7.1.1 'KitKat', the device supports Virtual Reality and you can proceed with downloading the SDK for Processing. Follow the steps (Could expand on this locally rather than redirect to site) provided by Android to [enable developer options](https://developer.android.com/studio/debug/dev-options#enable) 
+![alt text)(https://github.com/SenseiGia/VirtualReality_Tutorials/blob/master/Tutorial_Images/DownloadingSDK.JPG)
 
 This will allow the Android device user to access special functions. After enabling developer options, [enable USB Debugging](https://developer.android.com/studio/debug/dev-options#debugging).
 
