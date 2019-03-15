@@ -46,32 +46,29 @@ For the final part of the Processing configuration step, we will now want to upd
 Processing has now been completely configured and we can now start configuring you Android device for communication with you computer. 
 
 ## Configure you Android device for use with Processing.
-**On Phone: -> Settings -> About phone -> Android Version: #.#.#**
-![alt text](https://github.com/SenseiGia/VirtualReality_Tutorials/blob/master/Tutorial_Images/AndroidVerison.jpg)
 
-If the version is newer than Android SDK 7.1.1 'KitKat', the device is supported and you can proceed with downloading the SDK for Android Studio. Select the SDK by clicking on the checkbox and progress by clicking 'Apply' or 'OK', which will download the SDK to your system.
+**On Phone: -> Settings -> About phone -> Android Version: #.#.#**
 
 If the version is equal or newer than Android SDK 7.1.1 'KitKat', the device supports Virtual Reality and you can proceed with downloading the SDK for Processing. Follow the steps (Could expand on this locally rather than redirect to site) provided by Android to [enable developer options](https://developer.android.com/studio/debug/dev-options#enable) 
-![alt text)(https://github.com/SenseiGia/VirtualReality_Tutorials/blob/master/Tutorial_Images/DownloadingSDK.JPG)
 
 This will allow the Android device user to access special functions. After enabling developer options, [enable USB Debugging](https://developer.android.com/studio/debug/dev-options#debugging).
 
 You should be able to now connect the Android device to the computer and see the device appear in the device list provided in Processing as seen in the image below.
 
 ## Time to follow the tutorials:
-Tutorial 0: Object Creation **LINK**
+Tutorial 0: Processing VR Overview **LINK**
 - This tutorial walks through the basics of virtual reality development. It will cover the important sections used by processing and how to create a basic object in 3D space. We will also breifly explore the concepts of object transfomration and lighting. 
 
-Tutorial 1: Scene Creation **LINK**
-- This Tutorial is the first "real" tutorial of the set of lessons that goes into the details of object creation in a 3D space. It will cover the basic objects that can be created with Processing's API as well the ability to create custom objects. Finally it will cover how to import external .obj (Wavefront) file.  
+Tutorial 1: Object Creation **LINK**
+- This tutorial is the first "real" tutorial of the set of lessons that goes into the details of object creation in a 3D space. It will cover the basic objects that can be created with Processing's API as well the ability to create custom objects. Finally it will cover how to import external .obj (Wavefront) file.  
 
-Tutorial 2: User Interaction
-- To Be Done
+Tutorial 2: Scene Creation **LINK**
+- This tutorial is the second "real" tuturial where we eplain how models work and how it it essential to creating a scene. We will also attempt to load textures in this example. TODO... Have issues.
 
-Tutorial 3: Adding Spatial sound relative to objects and user
-- To Be Done
+Tutorial 3: Object Interaction **LINK**
+- This tutorial is the third "real" tutorial where we start incorporating user interaction into the program. Up to this poing, we just created objects in 3D space but did very little with them. This tutorial will explore shape vertices and touchscreen interaction, which works well with the Google Cardboard.
 
-tutorial 4: Integrating More complex movements and interactions
+Tutorial 4: Spatial Audio **LINK**
 - To Be Done
 
 

@@ -2,10 +2,11 @@ import processing.vr.*;
 
 /** Global Variables */
 PShape bulldogModel;
-PShape randomShape1;
-PShape randomShape2;
 
 int counter = 0;
+
+int x = -30;
+int y = 0;
 
 void setup() {
   /**
@@ -18,12 +19,7 @@ void setup() {
   bulldogModel = loadShape("bulldog_logo.obj");
   bulldogModel.scale(40);
   bulldogModel.rotateX(0.5 * PI);
-  bulldogModel.translate(-30, 0, 0);
-  
-  randomShape1 = createShape(SPHERE, 30);
-  randomShape1.translate(0, 300, 0);
-  randomShape2 = createShape(BOX, 30, 30, 30);
-  randomShape2.translate(300, 0, 0);
+  bulldogModel.translate(0, 0, 0);
 }
 
 void draw() {
@@ -35,10 +31,26 @@ void draw() {
 
   /* Move or objects in various directions */
   shape(bulldogModel, 0, 0);
-  shape(randomShape1, 0, 0);
-  shape(randomShape2, 0, 0);
+  
+  if(mousePressed){
+    x = mouseX;
+    y = mouseY;
+  }else{
+    // Do nothing
+  }
+  shape(bulldogModel, 0, 0);
+
   
   bulldogModel.rotateY(0.01);
-  randomShape2.rotateZ(0.01);
-  randomShape1.rotateX(0.01);
 }
+
+
+//boolean mouseInRegion(){
+//  if(eyes
+//}
+
+//void randomizePoints(){
+//  if(mousePressed) {
+    
+//  }
+//}
