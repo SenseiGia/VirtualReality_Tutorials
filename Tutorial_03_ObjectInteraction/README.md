@@ -106,7 +106,9 @@ In the example above, we use the newly taught skill to print coordinates to the 
 
 ## Summary and final assignment
 
-After this tutorial, you should be familiar with how to interface with the touchscreen for user control in the application. You should also be able to understand some matrix algebra which allows us to interface the eye class with objects, comparing the locations between both items. 
+After this tutorial, you should be familiar with how to interface with the touchscreen for user control in the application. You should also be able to understand some matrix algebra which allows us to interface the eye class with objects, comparing the locations between both items.
+
+The final piece of code included in this example holds a small game like program that will randomly change the position of the loaded .obj file and allow for touch interface and eye tracking to interact with the object. The Code provides a small crosshair to show how the eye coordinates translate in various parts of the virutal reality enviornment.
 
 ```Javascript
 import processing.vr.*;
